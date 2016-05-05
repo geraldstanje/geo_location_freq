@@ -77,7 +77,7 @@ def generate_random_lat_long_points(number_of_points):
   return rand_locations
 
 def main():
-  rand_locations = generate_random_lat_long_points(20000)
+  rand_locations = generate_random_lat_long_points(100000)
   polygons = read_geo_json()
 
   start = time.time()
